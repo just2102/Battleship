@@ -1,0 +1,31 @@
+#gamefield {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+
+#battlefield_self {
+    min-width:300px;
+    min-height:300px;
+    float:left;
+}
+#battlefield_opponent {
+    float:right;
+    min-width:300px;
+    min-height:300px;
+}
+
+
+
+.battlefield-cell {
+    border: 1px solid #000000
+}
+.battlefield-cell-content {
+    height:1.5em;
+    width:2em;
+}
+.battlefield-cell-content.filled {
+    background-color: red;
+}
